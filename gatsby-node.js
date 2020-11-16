@@ -6,7 +6,7 @@
 
 // You can delete this file if you're not using it
 const path = require(`path`)
-const slash = require(`slash`)
+const slash = require(`./node_modules/slash`)
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   // we use the provided allContentfulBlogPost query to fetch the data from Contentful
